@@ -1,0 +1,837 @@
+/*
+ * @author ( Angie Radtke )
+*/
+
+
+/* ##########################  general  ########################### */
+
+body
+{
+	font-family: arial, helvetica, sans-serif;
+/*
+	background:url("../images/background-site.jpg") repeat scroll 0 0 / 50% auto;
+*/
+	background:url("background-site.jpg")/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/background-site.jpg*/ repeat scroll 0 0;
+	color:#444
+}
+
+h3 {
+	font-family: "Bad Script",cursive;
+	font-size: 21px;
+	color:#0A5E69
+}
+
+h2 a {
+	font-family: "Bad Script",cursive;
+	font-size: 21px;
+	text-decoration: none;
+	color:#0A5E69;
+}
+
+/*
+h2, .moduletable h3 {
+	border-bottom: solid 1px #ddd;
+}
+*/
+
+/*
+.items-row h2
+{border-top: solid 1px #ddd;
+}
+*/
+
+a:link,
+a:visited
+{
+	color:#0A5E69
+}
+
+a:hover,
+a:active,
+a:focus
+{
+	color:#333;
+}
+
+#header ul.menu li.active a,
+#header2 ul.menu li.active a{
+	color:#fff;
+	background-color: initial;
+}
+
+.mel{
+	font-family: 'LC Chalk', arial;
+	font-size: 48px;
+}
+
+
+/* ##########################  logo  ########################### */
+
+.logoheader
+{
+padding-top:30px;
+}
+
+.logoheader h1#logo  span.header1 {padding:0}
+
+/* ##########################  header  ########################### */
+
+
+
+#line { position:relative; max-width:1050px; margin:0 auto; text-align:right; right:0;  top:0em}
+#header
+{
+	background:  url("doska1.png")/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/doska1.png*/ no-repeat scroll 0 0 / 100% 100%;
+	height: 430px;
+	padding: 0;
+}
+
+
+/* green background */
+.button:hover, button:hover, p.readmore a:hover,
+.pagenav a:hover, .pagenav a:active,  .pagenav a:focus,  #advanced-search-toggle:hover,  #advanced-search-toggle:active,  #advanced-search-toggle:focus,
+.profile-edit a:hover, .profile-edit a:active, .profile-edit a:focus,
+#fontsize a:hover,  #fontsize a:active,  #fontsize a:focus,#mobile_select h2 a
+	{
+
+	}
+
+/* ++++++++++++++ header  menu ++++++++++++++ */
+
+
+
+#header ul.menu li
+{
+	border:0;
+
+}
+#header ul.menu a {
+	box-shadow:none;
+	border-bottom:0
+	}
+
+
+form#postform.form-validate {
+    margin-bottom: 15px;
+}
+
+#header2 {
+	background: #18322f url("headBg2.png")/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/headBg2.png*/ no-repeat scroll 0 0 / 100% 100%;
+	border-radius: 0 0 10px 10px;
+	height: 100px;
+	margin-bottom: 5px;
+	position: relative;
+	box-shadow: 0 4px 10px 2px #777;
+}
+
+#header2 .logoheader{
+margin:0;
+padding:4px 0 0 0;
+}
+
+
+#fontsize a , #fontsize h3 {color:#fff}
+/*  grey background */
+.button, button , p.readmore a ,
+ .pagenav a:link, .pagenav a:visited, #advanced-search-toggle , .profile-edit a:link,.profile-edit a:visited,  h3.js_heading
+ {
+	background-color: #F5F5F5;
+	background-image: -moz-linear-gradient(center top, #FFFFFF, #E6E6E6);
+	background-repeat: repeat-x;
+	border:solid 1px #ccc;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px
+		rgba(0, 0, 0, 0.05);
+	color: #004746;
+}
+
+
+/* ++++++++++++++++++++++  navigation  ++++++++++++++++++++++++++  */
+
+.moduletable_menu {
+	border: solid 1px #ddd;
+	background: #f9f9f9;
+
+}
+
+ul.menu a:hover,
+ul.menu a:active,
+ul.menu a:focus {
+	background-color: #F5F5F5;
+	background-image: -moz-linear-gradient(center top, #FFFFFF, #E6E6E6);
+	background-repeat: repeat-x;
+	background: url(arrow.png)/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/arrow.png*/ no-repeat right center;
+	color: #004746;
+
+}
+
+
+/* ++++++++++++++++   highlightning active menuitem  +++++++++++++++++++ */
+
+ul.menu li.active a,ul.menu  li.active ul li.active a,
+ul.menu  li.active ul li.active  ul li.active a,
+ul.menu  li.active ul li.active  ul li.active ul li.active  a ,
+ul.menu  li.active ul li.active  ul li.active ul li.active ul li.active a
+{font-weight:bold; }
+ul.menu  li.active ul li a,
+ul.menu  li.active ul li.active  ul li a,
+ul.menu  li.active ul li.active  ul li.active ul li  a,
+ul.menu  li.active ul li.active  ul li.active ul li.active ul li a
+{font-weight:normal}
+
+ul.menu a
+{
+	box-shadow:0 1px 0 #fff;
+	border-bottom:solid 1px #ddd;
+
+}
+
+ul.menu ul a {
+	margin-bottom:1px
+}
+
+ul.menu ul ul ul a {
+	background: #f5f5f5 url(arrow.png)/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/arrow.png*/ no-repeat 24px center;
+
+}
+
+ul.menu ul ul ul ul a {
+	background: #fff;
+}
+
+/* +++++++++++++++++  content  +++++++++++++++ */
+
+
+.article-info {
+	background-color: #fbfbfb;
+	background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff),
+		to(#f5f5f5) );
+	background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image: linear-gradient(top, #ffffff, #f5f5f5);
+	background-repeat: repeat-x;
+	filter: progid : DXImageTransform.Microsoft.gradient ( startColorstr =
+		'#ffffff', endColorstr = '#f5f5f5', GradientType = 0 );
+	border: 1px solid #ddd;
+	-webkit-box-shadow: inset 0 1px 0 #ffffff;
+	-moz-box-shadow: inset 0 1px 0 #ffffff;
+	box-shadow: inset 0 1px 0 #ffffff;
+}
+
+ul.menu a:link,ul.menu a:visited {
+	color: #444;
+}
+
+
+#footer-inner, #footer , #footer-outer {
+
+}
+
+
+#footer {
+    background-color:#18322F;
+    border: medium none #aaa;
+    border-radius: 10px 10px 0 0;
+    height: 50px;
+    margin: 5px auto 0;
+    max-width: 1025px;
+    color:#eee;
+    box-shadow: 0 4px 10px 2px #777;
+    background: #18322f url("headBg2.png")/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/headBg2.png*/ no-repeat scroll 0 0 / 100% 100%;
+}
+#footer a {color:#fff}
+
+.box1
+{border-right:solid 1px #ccc}
+.box3
+{border-left:solid 1px #ccc}
+#bottom  ul li a
+{background-image:none;
+padding-left:0}
+
+/* +++++++++++++++++++++++  SLIDER  ++++++++++++++++++++  */
+
+.panel h3.pane-toggler a
+{
+	background: url(slider_plus.png)/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/slider_plus.png*/ right  top no-repeat;
+	color:#333
+}
+.panel h3.pane-toggler-down a
+{
+	background: url(slider_minus.png)/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/slider_minus.png*/ right  top no-repeat;
+	border-bottom:solid 1px #ddd;
+	color:#333
+}
+
+/*  +++++++++++++++++   Tabs ++++++++++++++++++++++  */
+
+ul.tabs li,
+dl.tabs dt h3 a:link,
+dl.tabs dt h3 a:visited
+{
+	background:#f5f5f5 url(box.png)/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/nature/box.png*/ repeat-x;
+
+}
+ul.tabs li a:link,
+ul.tabs li a:visited,
+dl.tabs dt a
+{
+	color:#333;
+	border:solid 1px #ddd; border-bottom:0
+}
+
+ul.tabs li a:hover,
+ul.tabs li a:active,
+ul.tabs li a:focus
+{
+	color:#000
+}
+
+.tabcontent, div.current
+{
+	background:#fff;
+	color:#000;
+	border:solid 1px #ddd;
+}
+
+.tabcontent .linkclosed
+{
+	color:#000;
+	border-bottom:solid 1px #e5e5e5;
+}
+
+ul.tabs li a.linkopen,
+dl.tabs dt.open  h3 a:link,
+dl.tabs dt.open  h3 a:visited
+{
+	background:#fff;
+	color:#333;
+	border-radius: 5px 5px 0px 0px;
+}
+
+ul.tabs li a.linkclosed:hover,
+ul.tabs li a.linkclosed:active,
+ul.tabs li a.linkclosed:focus,
+ul.tabs li a.linkopen:hover,
+ul.tabs li a.linkopen:active,
+ul.tabs li a.linkopen:focus
+{
+	background:#555;
+	color:#fff
+}
+
+
+/* +++++++++++++++++  Pagination +++++++++++++++ */
+
+.pagination span,
+.pagination span  a:hover {
+	color: #999999;
+	background-color: #f5f5f5;
+}
+
+/* active item */
+span.pagenav
+{
+background:#0A5E69;
+color:#fff
+}
+
+.pagination-start span.pagenav,
+.pagination-prev  span.pagenav,
+.pagination-end span.pagenav,
+.pagination-next span.pagenav
+
+{
+background-color:#f5f5f5;
+color:#444
+}
+
+/* +++++++++++++  table display  Catgegories table, contact etc, ++++++++++++++++++++* */
+
+table {border:solid 1px #ddd}
+table th
+ {
+	background-color: #0A5E69;;
+	color: #fff;
+}
+table th a:link,
+table th a:visited
+{color:#fff}
+tr.odd, tr.cat-list-row1 {background:#f8f8f8}
+table  tr:hover td {
+  background-color: #FEFDE2;
+}
+
+/* responsive */
+#mobile_select h2 {border:0; margin:-17px 0 0 0; padding:0; background:#004746;text-align:right}
+#mobile_select h2 a {
+display:inline-block;
+font-size:0.8em;
+border-radius:4px 4px 0 0;
+padding:6px;
+font-size:0.75em;
+margin-right:5px;
+}
+
+@media only screen and (max-width: 480px) {
+
+	  img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+	#fontsize{display:none}
+	#nav,#wrapper2,#wrapper,.cols-3 .column-1,.cols-3 .column-2,.cols-3 .column-3,#right,.box,#header form
+		{
+		float: none;
+		width: 100%
+	}
+	#header {padding-top:3em; position:relative; margin:0; max-height:auto !important; }
+	#header form  {margin:0}
+	#all {padding-top:0}
+	.logoheader {background:#004746 ; min-height:100px;margin:0 }
+	.box {
+		border-left: 0 !important;
+		border-bottom: solid 1px #ddd;
+	}
+	#line {
+		text-align: center;
+		top: 0;
+		right: auto;
+		max-width: 100% ;
+		min-width:100%;
+		margin: 0 0px;
+		background:#0A5E69;
+		position:absolute
+	}
+	#header form input {
+		float: none; margin-bottom:4px
+	}
+	#menuwrapper { margin-top:10px; background:#fff; padding:10px; width:97%}
+	#header ul.menu {position:relative; top:0;left:20px; right:20px; margin:0; width:90%; border-radius:4px; text-align:left; border:0}
+	#header ul.menu li:first-child a {border-radius: 4px 4px 0 0}
+	#header ul.menu li:last-child a {border-radius:0 0 4px 4px }
+	#header ul.menu li a:link,
+	#header ul.menu li a:visited {
+		display: block;
+		padding: 6px 10px;
+		border-right:0;
+		border-bottom: solid 1px #ccc;
+		background:#eee;
+		color:#444
+	}
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1382px) { /* Styles */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) , only screen and
+		(min--moz-device-pixel-ratio: 1.5) , only screen and
+	(min-device-pixel-ratio: 1.5) { /* Styles */
+}
+
+
+
+#header ul.menu li a,
+#header2 ul.menu li a,
+#header ul.menu li span,
+#header2 ul.menu li span
+ {
+    color:#8BC3D4;
+    text-decoration:none;
+    font-family:"LC Chalk",arial;
+    font-size:20px;
+		font-weight:bold;
+		padding:9px;
+}
+
+
+#header ul.menu li.parent > a {
+	border-radius: 7px 7px 0 0;
+	display: block;
+	padding: 9px;
+}
+
+#header ul.menu li.parent:hover ul.nav-child,
+#header2 ul.menu li.parent:hover ul.nav-child {
+	display:inline-table
+}
+
+#header ul.menu li.parent:hover{
+	background-color:#152D1D;
+	border-radius:7px 7px 0 0;
+}
+
+#header2 ul.menu li.parent:hover{
+	background-color:#152D1D;
+	border-radius:7px 7px 0 0;
+}
+
+
+#header ul.menu li.parent a:hover {
+	color:#fff;
+}
+
+#header ul.menu .nav-child a {
+    color: #8bc3d4;
+    font-size: 15px;
+}
+
+#header2 ul.menu li a,
+#header2 ul.menu li span{
+	border-bottom: medium none;
+	box-shadow: none;
+	font-size: 14px;
+}
+
+
+#header ul.menu li a:hover,
+#header2 ul.menu li a:hover {
+	color:#eee;
+}
+
+.custom.welcom {
+	height: 212px;
+	padding: 45px 5px 5px 46px;
+	width: 357px;
+	-moz-transform: rotate(-5deg);  /* Firefox */
+  -o-transform: rotate(-5deg);  /* Opera */
+  -webkit-transform: rotate(-5deg);  /* Safari y Chrome */
+  float:left;
+}
+.custom.welcom p b{
+	display:block;
+	margin-bottom:10px;
+}
+.custom.welcom p {
+	color: #f8f8f8;
+	font-family: "LC Chalk","Bad Script",cursive;
+	font-size: 14px;
+	line-height: 27px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.blog > div {
+	background: rgba(0, 0, 0, 0) url("sticky.png")/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/sticky.png*/ no-repeat scroll 0 0;
+	padding: 0 5px 3px 42px;
+	width: 668px;
+	height:236px;
+}
+
+.blog > div h2 {
+	padding: 31px 0 3px 49px;
+}
+
+.blog article p:first-of-type {
+	text-indent: 60px;
+}
+.blog p {
+	font-size: 16px;
+	letter-spacing: 0.7px;
+	line-height: 28px;
+	margin: 0;
+}
+
+
+.povorot45 {
+  -moz-transform: rotate(-18deg);  /* Firefox */
+  -o-transform: rotate(-18deg);  /* Opera */
+  -webkit-transform: rotate(-18deg);  /* Safari y Chrome */
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=0.7071067811865475, M21=-0.7071067811865475, M22=0.7071067811865476); /* IE */
+}
+
+
+.rasspisanie table {
+	border: 1px solid #0a5e69;
+	float: left;
+	margin: 10px;
+	width: 46%;
+	background-color: #f5e79f;
+}
+
+.rasspisanie table td{
+	border: 1px solid #0a5e69;
+	vertical-align: middle;
+}
+
+
+.hidd {
+	display:none;
+}
+
+
+.raspisanie h3,
+.new_main  h1,
+body h2 {
+    color: #0a5e69;
+    font-family: "Bad Script",cursive;
+    font-size: 23px;
+    margin: 0;
+    text-align: center;
+}
+
+.raspisanie table tr td {
+    border: 1px solid;
+    color: #1d3837;
+    vertical-align: middle;
+}
+
+article.new_main {
+    background-color: #F5E79F;
+    padding:7px;
+    border-radius: 3px 3px 10px 3px;
+    box-shadow:2px 2px 2px 3px #ccc;
+}
+
+
+
+.rodcom > img {
+	display: block;
+	float: left;
+	margin: 18px 0;
+	max-width: none;
+	width: 327px;
+}
+
+.rodcom {
+	margin:0 auto;
+}
+
+
+#header ul.menu li ul.nav-child li,
+#header2 ul.menu li ul.nav-child li {
+	display: block;
+	text-align: left;
+}
+
+.text-nvi{
+	color: #0a5e69;
+	font-family: "Bad Script",cursive;
+	vertical-align: middle;
+}
+
+
+.text-nvi p {
+    font-size: 23px;
+    text-align: center;
+}
+
+#kunena h1,
+.moduletable.send_uchitel h3 {
+	margin-bottom:20px;
+	color: #0a5e69;
+	font-family: "Bad Script",cursive;
+}
+
+#kunena.layout li .topic-starter,
+.btn-link,
+#writeaccess,
+.input-append
+{
+display:none;
+}
+
+table thead {
+  background-color: #f8f8f8;
+}
+
+#kunena.layout .alert-info {
+    background-color: #f5e79f;
+    border-color:#f5e79f;
+    box-shadow:2px 2px 3px #aaa;
+    color: #333;
+}
+
+ul.profilebox li a {
+	color:#f8f8f8;
+}
+
+a[href='/forum/credits.html']{
+	display: none !important;
+}
+
+a[href='https://www.kunena.org']{
+	display: none !important;
+}
+
+.custom.obyavlenie {
+	background: rgba(0, 0, 0, 0) url("obyavlenie.png")/*tpa=http://a-klass.z3x.ru/images/obyavlenie.png*/ no-repeat;
+	float: right;
+	height: 297px;
+	margin: -65px 45px 0 0;
+	width: 300px;
+}
+
+#obyavlenie{
+	padding: 56px;
+	width: 182px;
+}
+
+#obyavlenie h1 {
+	font-size:21px;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+small.hidden-phone.nowrap {
+	display:none;
+}
+
+input.btn {
+    width: auto;
+}
+
+.pull-right form{
+	display:none;
+}
+
+.moduletable.send_uchitel {
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px #aaa;
+	padding: 10px;
+}
+.moduletable.send_uchitel h3{
+	font-size:23px;
+	text-align:center;
+}
+
+.moduletable.send_uchitel input,
+.moduletable.send_uchitel textarea#message {
+	width:100%;
+	box-sizing: border-box;
+}
+
+.kmessage blockquote {
+	background-color: #f8f8f8;
+	border: 1px dashed #aaa;
+	margin: 0;
+}
+
+.imgChil {
+    border: 7px double #223630;
+    box-shadow: 3px 6px 8px 3px #aaa;
+    display: block;
+    margin: 50px auto;
+    max-width: unset;
+    width: 100%;
+}
+
+.respisanieUrokov {
+	background: rgba(0, 0, 0, 0) url("sticky_green.png")/*tpa=http://a-klass.z3x.ru/templates/a-klass/images/sticky_green.png*/ no-repeat scroll 0 0 / 100% auto;
+	color: #0a5e69;
+	font-size: 16px;
+	height: 344px;
+	letter-spacing: 1px;
+	line-height: 29px;
+	padding: 39px 0 0 14px;
+	position: relative;
+	text-shadow: 1px 1px 2px #eee;
+
+}
+.respisanieUrokov div{
+	border-bottom: 1px solid #ddd;
+	width: 216px;
+}
+
+.respisanieUrokov b {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	width: 30px;
+}
+
+.respisanieUrokov .dnras {
+	border: medium none;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+.respisanieUrokov .zagras {
+	border-bottom: medium none navy;
+	bottom: 57px;
+	color: #eee;
+	font-family: Bad Script;
+	font-size: 28px;
+	left: 13px;
+	position: absolute;
+	text-shadow: 1px 1px 2px #333;
+}
+
+.newsLicey .boxNews{
+		margin: 20px 0 6px;
+}
+
+.newsLicey h4 {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.newsLicey .imageNews {
+	border: 1px solid #193127;
+	float: left;
+	margin: 0 5px 5px;
+	padding: 1px;
+	width: 100px;
+}
+
+.newsLicey .textNews {
+	line-height: 20px;
+	text-indent: 20px;
+}
+
+.imgChil2 {
+	border: 10px double yellow;
+	box-shadow: 3px 6px 8px 3px #aaa;
+	display: block;
+	margin: 50px auto;
+	max-width: unset;
+	padding: 7px;
+}
+
+
+.raspisanieUrokov {
+	background: rgba(0, 0, 0, 0) url("sticky_300.png")/*tpa=http://a-klass.z3x.ru/images/sticky_300.png*/ no-repeat scroll 0 0;
+	float: left;
+	font-size: 18px;
+	height: 242px;
+	margin: 10px;
+	padding: 59px 0 0 20px;
+	width: 283px;
+}
+
+.raspisanieUrokov div {
+    color: #0a5e69;
+    font-family: Bad Script;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.raspisanieUrokov div b {
+    display: inline-block;
+    font-family: status-bar;
+    font-size: 16px;
+    font-style: italic;
+    width: 30px;
+}
